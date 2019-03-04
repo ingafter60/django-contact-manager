@@ -1,0 +1,20 @@
+Section: 3 Starting to work with django
+
+7. Starting our django project 
+  $ python -m venv env32
+  $ source ./env32/Scripts/activate
+  $ pip install django
+  $ django-admin startproject contact .
+  $ tree
+    .
+    |-- __init__.py
+    |-- settings.py
+    |-- urls.py
+    `-- wsgi.py
+  $ python manage.py run server 
+    > http://127.0.0.1:8000/
+  $ python manage.py makemigrations 
+  
+8. Making our django app
+
+
